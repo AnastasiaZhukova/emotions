@@ -146,6 +146,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="emotional_lib.h" />
+    <ClInclude Include="text_lib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="emotional_lib.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="text_lib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="poem.txt" />
+    <Text Include="sentiments.txt" />
+    <Text Include="sentiments1.txt" />
+    <Text Include="temp_poem.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
